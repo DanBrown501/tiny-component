@@ -92,7 +92,7 @@ export default class Draggable extends React.Component {
         onMouseDown={this.handleMouseDown}
         x={translateX}
         y={translateY}
-        isDragging={isDragging}
+        // isDragging={isDragging} not sure if this is necessary 
         style={{transform: `translate(${translateX}px, ${translateY}px)`, cursor: 'grab' }}
         id='dragItem'
         className={theClass}
