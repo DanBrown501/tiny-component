@@ -1,0 +1,54 @@
+
+.Letter {
+    width: 160px;
+    height: 80px;
+    margin-left: 2px; margin-top: 80px; margin-right: 45px; margin-bottom: -5px;
+    border: 2px solid black;
+    background: orange;
+  }
+  
+  
+  
+  #Vowel {
+    color: red;
+  }
+
+
+  .container {
+     display: inline-grid ; /*inline-grid: */
+     grid-template-columns:  5 ;
+     grid-template-rows:  5;
+  }
+
+  .item-1 {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+  }
+
+  .item-2 {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row2-start;
+    grid-row-end: 3;
+  }
+
+  .item-3 {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row3-start;
+    grid-row-end: 3;
+  }
+  .item-4 {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row3-start;
+    grid-row-end: 3;
+  }
+  .item-5 {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row3-start;
+    grid-row-end: 3;
+  }
