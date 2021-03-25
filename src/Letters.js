@@ -43,16 +43,13 @@ export default class Letters extends Component {
                 <h2 className="header">Letters</h2>
                 <div className="">
                     <div className="">Vowels
-                    <span className="Letter" id="Vowel">{letters.vowel}</span>
+                    <span className="Letter" id="Vowel">
+                        {letters.vowel.map(vowel => <span key={vowel}>vowel</ span>)}
+                    </span>
                     </div>
                 </div>
-    
-    
             </div>
         );
-    }
-    
-
-    
+    } 
 }
 
